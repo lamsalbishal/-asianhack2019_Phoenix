@@ -8,12 +8,12 @@ import {
       ScrollView,
       Dimensions
   } from 'react-native';
-import FirstTrending from './FirstTrending';
-import SecondTrending from './SecondTrending';
+import NormalComment from './normal';
+import ExportComment from './export';
 
 const {width,height} = Dimensions.get('window');
 
-export default class Trending extends Component {
+export default class Comment extends Component {
   
   render() {
 
@@ -23,11 +23,11 @@ export default class Trending extends Component {
          showsHorizontalScrollIndicator={false}
          >
              <View style={{width:width,height:height}}>
-                <FirstTrending/>
+                <NormalComment/>
              </View>
 
              <View style={{width:width,height:height}}>
-                  <SecondTrending/>
+                  <ExportComment/>
              </View>
 
          </ScrollView>

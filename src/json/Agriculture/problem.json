@@ -1,38 +1,38 @@
 [
+   
     {
-        fullname:'bishal lamsal',
-        date:' 8:00 PM, May, 04 2019',
+        fullname:'Manoj Adhakari',
+        date:' 9:00 PM, Jan, 20 2019',
         problem:'The results revealed that common problems encountered by rice farmers were: high cost of inputs, low price of palay, lack of capital, labor problem, lack of postharvest facilities, pest and diseases and irrigation system.',
-        image:'https://www.victoria.ac.nz/__data/assets/image/0005/382757/agriculture-picture.jpg',
+        image:'https://ccafs.cgiar.org/sites/default/files/styles/large/public/blog/pictures/infested_tomato_iita.jpg?itok=hkpIdaBL',
+    },
+
+    {
+        fullname:'Bishal Lamsal',
+        date:' 9:00 PM, Jan, 14 2019',
+        problem:'The results revealed that common problems encountered by rice farmers were: high cost of inputs, low price of palay, lack of capital, labor problem, lack of postharvest facilities, pest and diseases and irrigation system.',
+        image:'https://www.icarda.org/sites/default/files/styles/d08_standard/public/migration/14110739111_eb0ee06811_o.jpg?itok=uQCtBUWR',
     },
     {
-        fullname:'bishal lamsal',
+        fullname:'Ram Adhakari',
         date:' 8:00 PM, May, 04 2019',
         problem:'The results revealed that common problems encountered by rice farmers were: high cost of inputs, low price of palay, lack of capital, labor problem, lack of postharvest facilities, pest and diseases and irrigation system.',
-        image:'https://www.victoria.ac.nz/__data/assets/image/0005/382757/agriculture-picture.jpg',
+        image:'https://sappk.files.wordpress.com/2010/03/rahim-yar-khan1.jpg',
     },
     {
-        fullname:'bishal lamsal',
-        date:' 8:00 PM, May, 04 2019',
+        fullname:'Shayam Adhakari',
+        date:' 9:00 PM, Feb, 04 2019',
         problem:'The results revealed that common problems encountered by rice farmers were: high cost of inputs, low price of palay, lack of capital, labor problem, lack of postharvest facilities, pest and diseases and irrigation system.',
-        image:'https://www.victoria.ac.nz/__data/assets/image/0005/382757/agriculture-picture.jpg',
+        image:'https://www.danchurchaid.org/var/fkn_site/storage/images/media/danchurchaid.org/pictures/articles/0016344_uganda_landbrug/264746-1-eng-GB/0016344_uganda_landbrug_textwidth.jpg',
     },
+
     {
-        fullname:'bishal lamsal',
-        date:' 8:00 PM, May, 04 2019',
+        fullname:'Hari Adhakari',
+        date:' 9:00 PM, Feb, 01 2019',
         problem:'The results revealed that common problems encountered by rice farmers were: high cost of inputs, low price of palay, lack of capital, labor problem, lack of postharvest facilities, pest and diseases and irrigation system.',
-        image:'https://www.victoria.ac.nz/__data/assets/image/0005/382757/agriculture-picture.jpg',
-    },
-    {
-        fullname:'bishal lamsal',
-        date:' 8:00 PM, May, 04 2019',
-        problem:'The results revealed that common problems encountered by rice farmers were: high cost of inputs, low price of palay, lack of capital, labor problem, lack of postharvest facilities, pest and diseases and irrigation system.',
-        image:'https://www.victoria.ac.nz/__data/assets/image/0005/382757/agriculture-picture.jpg',
-    },
-    {
-        fullname:'bishal lamsal',
-        date:' 8:00 PM, May, 04 2019',
-        problem:'The results revealed that common problems encountered by rice farmers were: high cost of inputs, low price of palay, lack of capital, labor problem, lack of postharvest facilities, pest and diseases and irrigation system.',
-        image:'https://www.victoria.ac.nz/__data/assets/image/0005/382757/agriculture-picture.jpg',
-    },
+        image:'https://189662-567937-1-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2018/06/Natural-Pest-and-Disease-Control-in-Agriculture-Crops.-600x330.jpg',
+    }
+
+    
+
 ]

@@ -1,0 +1,38 @@
+[
+    {
+        fullname:'Ram Adhakari',
+        date:' 8:00 PM, May, 04 2019',
+        problem:'Marco Ferroni is the chair of the CGIAR System management board and former executive director of the Syngenta Foundation for Sustainable Agriculture. CGIAR is a global research partnership for a food-secure future.',
+        image:'https://www.euractiv.com/wp-content/uploads/sites/2/2016/10/Digital-farming.jpg',
+    },
+    {
+        fullname:'Shayam Adhakari',
+        date:' 9:00 PM, Feb, 04 2019',
+        problem:'Assessing, measuring and researching seed characteristics enables you to develop new seed products. We offer you highly effective seed laboratory research to help you bring new seeds and improved seed products to market. Plus, we can help you comply with all applicable quality and safety standards.',
+        image:'https://www.sgs.my/-/media/global/images/structural-website-images/hero-images/hero-sprouts.jpg',
+    },
+
+    {
+        fullname:'Hari Adhakari',
+        date:' 9:00 PM, Feb, 01 2019',
+        problem:'Agri Tourism Development Corporation of Pakistan, a private venture working to promote tourism related to agriculture in the country, has established the first research institute of ‘agriculture tourism’ in Pakistan. ',
+        image:"https://www.bls.gov/ooh/images/1969.jpg"
+    },
+
+    {
+        fullname:'Manoj Adhakari',
+        date:' 9:00 PM, Jan, 20 2019',
+        problem:'Our primary sector is world class and helps to drive our economy. We want to ensure that the science and skills underpinning the sector are also world class.',
+        image:"https://unitedwithisrael.org/wp-content/uploads/2017/07/shutterstock_418147048.jpg"
+    },
+
+    {
+        fullname:'Bishal Lamsal',
+        date:' 9:00 PM, Jan, 14 2019',
+        problem:'Ground was broken today for a new $200 million facility in Canterbury that will help bolster agriculture research and teaching for Lincoln University and AgResearch.',
+        image:"https://educationcentral.co.nz/wp-content/uploads/2017/08/agriculture.jpg"
+    }
+    
+    
+
+]

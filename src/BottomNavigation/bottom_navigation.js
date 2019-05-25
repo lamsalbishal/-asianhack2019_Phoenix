@@ -5,12 +5,12 @@ import { createBottomTabNavigator, createAppContainer } from 'react-navigation';
 import HomeView from '../BottomNavigation/Home/home';
 import TrendingView from '../BottomNavigation/Trending/trending';
 import ResearchView from '../BottomNavigation/Research/research';
-import ChatView from '../BottomNavigation/Chat/chat';
+import EventView from '../BottomNavigation/Event/event';
 import MoreView from '../BottomNavigation/More/more';
 
 
 import Entypo from 'react-native-vector-icons/Entypo'
-import AntDesign from 'react-native-vector-icons/AntDesign';
+import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 
@@ -21,7 +21,7 @@ import FontAwesome from 'react-native-vector-icons/FontAwesome';
 class HomeScreen extends React.Component {
   render() {
     return (
-       <HomeView/>
+       <HomeView navigation= {this.props.navigation}/>
     );
   }
 }
@@ -42,10 +42,10 @@ class ResearchScreen extends React.Component {
   }
 }
 
-class ChatScreen extends React.Component {
+class EventScreen extends React.Component {
     render() {
       return (
-        <ChatView/>
+        <EventView/>
       );
     }
   }
@@ -53,7 +53,7 @@ class ChatScreen extends React.Component {
   class MoreScreen extends React.Component {
     render() {
       return (
-        <MoreView/>
+        <MoreView navigation= {this.props.navigation}/>
       );
     }
   }
@@ -83,11 +83,11 @@ const TabNavigator = createBottomTabNavigator({
       )
   })
   },
-  Chat:{
-    screen: ChatScreen,
+  Events:{
+    screen: EventScreen,
     navigationOptions: () => ({
       tabBarIcon: ({tintColor}) => (
-        <Entypo name="chat" size={20} color={tintColor}/>
+        <MaterialIcons name="event" size={20} color={tintColor}/>
       )
   })
   },

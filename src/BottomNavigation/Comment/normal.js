@@ -6,7 +6,6 @@ import {
       FlatList,
       ActivityIndicator,
       Image,
-      TouchableOpacity
       
   } from 'react-native';
 
@@ -20,17 +19,15 @@ import agricultureProblem from '../../json/Agriculture/problem';
 
 
 
-export default class Home extends Component {
+export default class Normal extends Component {
   
  constructor(props){
    super(props)
  }
 
-
  
 
-  _renderItem({item,index}){
-   
+  _renderItem(item){
     return(
       <View style={{flex:1,padding:10,backgroundColor:'#fff'}}>
 
@@ -41,10 +38,10 @@ export default class Home extends Component {
           </View>
           <View style={{paddingLeft:10}}>
             <Text style={{fontSize:16,fontWeight:'bold'}}>
-              {item.fullname}
+              Full name
             </Text>
             <Text style={{fontSize:13}}>
-              {item.date}
+              8:00 PM, May, 04 2019
             </Text>
           </View>
         </View>
@@ -53,24 +50,19 @@ export default class Home extends Component {
        {/* start middle part */}
         <View>
           <Text style={{padding:5}}>
-           {item.problem}
+            Agriculture is the art and science of cultivating the soil,
+            growing crops and raising livestock. It includes the preparation 
+            plant and animal products for people to use and their distribution to markets.
           </Text>
         </View>
-        <View>
-          <Image
-            style={{width: '100%', height: 200}}
-            source={{uri: item.image}}
-          />
-        </View>
+       
         {/* close middle part */}
 
         {/* start header part  */}
         <View style={{flexDirection:'row',justifyContent:'space-around',paddingTop:10,paddingBottom:10,backgroundColor:'#F6F6F6'}}>
-        <TouchableOpacity >
           <View>
-              <Text style={{textAlign:'center'}}>Comment</Text>
+            <Text style={{textAlign:'center'}}>Reply</Text>
           </View>
-          </TouchableOpacity>
           <View>
             <Text style={{textAlign:'center'}}>{audio}</Text>
           </View>
@@ -84,16 +76,13 @@ export default class Home extends Component {
     )
   }
   render() {
-        const {navigate} = this.props.navigation;
+
         return (
           <View style={styles.container}>
           
-        
-             <FlatList
-                navigation = {this.props.navigation}
-                data={agricultureProblem} 
+             <FlatList             
+                data={agricultureProblem}
                 renderItem={this._renderItem}
-                
               />
           
           
